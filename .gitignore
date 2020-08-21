@@ -4,6 +4,7 @@
 .idea
 
 application-oauth.properties
+application-google.properties
 
 # Project exclude paths
 /build/
