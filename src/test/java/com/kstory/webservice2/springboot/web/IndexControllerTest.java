@@ -22,6 +22,6 @@ public class IndexControllerTest {
         String body = this.restTemplate.getForObject("/", String.class);
 
         //Then
-        assertThat(body).contains("Webservice Sample");
+        assertThat(body).contains("spring boot beginner");
     }
 }
